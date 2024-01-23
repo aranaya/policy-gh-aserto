@@ -10,6 +10,9 @@ default enabled = false
 allowed {
     input.role == "web-admin"
 }
+allowed {
+    input.role == "admin"
+}
 
 enabled {
     visible
